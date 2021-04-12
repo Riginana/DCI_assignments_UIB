@@ -1,0 +1,17 @@
+img {
+    width: 100%;
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    
+} */
+
+.container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: minmax(100px, 350px) 1fr minmax(100px, 350px);
+}
+

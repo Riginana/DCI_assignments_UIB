@@ -1,0 +1,54 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+    padding-bottom: 10px;
+    background: rgb(58, 57, 57);
+    color: white;
+}
+
+header {
+    font-size: 40px;
+    padding: 10px;
+    background: black;
+    
+}
+
+aside {
+    background: white;
+    color: black;
+    padding: 10px; 
+    
+}
+#main {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+main {
+    display: flex;
+    margin: 5px;
+}
+
+div.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+div.content > .thumbnail {
+    flex-basis: 30%;
+    margin: 5px;
+    
+      
+}
+.thumbnail > p {
+    background: rgb(73, 72, 72);
+    width: 150px;
+    height: 20px;
+}
